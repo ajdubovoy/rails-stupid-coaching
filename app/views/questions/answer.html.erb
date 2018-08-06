@@ -1,12 +1,12 @@
 <h1>Stupid Coaching</h1>
-<div class="question"><blockquote>
+<div class="question"><blockquote class="blockquote">
   <p><%= @question %></p>
-  <p><em>—You</em></p>
+  <footer class="blockquote-footer">You</footer>
 </blockquote></div>
 
-<div class="answer"><blockquote>
+<div class="answer"><blockquote class="blockquote">
   <p><%= @answer %></p>
-  <p><em>—Your coach</em></p>
+  <footer class="blockquote-footer">Your coach</footer>
 </blockquote></div>
 
 <div class="backlink"><%= link_to "Ask a new question", ask_path %></div>
